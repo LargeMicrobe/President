@@ -53,6 +53,9 @@ offset_bottom = 640.0
 [node name="PlayedCards" type="Node2D" parent="GOOEY/GameTable"]
 
 [node name="Logic" type="Node2D" parent="GOOEY"]
+script = ExtResource("2_cus4i")
+cardOrder = null
 
 [node name="Deck" type="Node" parent="GOOEY/Logic"]
 script = ExtResource("2_cus4i")
+cardOrder = null
