@@ -1,10 +1,14 @@
-[gd_resource type="Resource" script_class="CardResource" load_steps=2 format=3 uid="uid://d1rtlxsoeh3hf"]
+[gd_resource type="Resource" script_class="CardResource" load_steps=4 format=3 uid="uid://d1rtlxsoeh3hf"]
 
+[ext_resource type="Texture2D" uid="uid://c8ne3a6lk7b0o" path="res://assets/deck/images/card-hearts-10.png" id="1_moyfg"]
+[ext_resource type="Texture2D" uid="uid://kixv6pigeor8" path="res://assets/deck/images/card-back1.png" id="1_oapsi"]
 [ext_resource type="Script" path="res://CardResource.gd" id="1_u3ogw"]
 
 [resource]
 script = ExtResource("1_u3ogw")
-rank = ""
-suit = ""
+deckID = "35"
+suit = "heart"
+image = ExtResource("1_moyfg")
+rearImage = ExtResource("1_oapsi")
 faceUp = true
-deckNo = 0
+rank = 7

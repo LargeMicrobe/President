@@ -1,10 +1,14 @@
-[gd_resource type="Resource" script_class="CardResource" load_steps=2 format=3 uid="uid://d1rtlxsoeh3hf"]
+[gd_resource type="Resource" script_class="CardResource" load_steps=4 format=3 uid="uid://d1rtlxsoeh3hf"]
 
+[ext_resource type="Texture2D" uid="uid://kixv6pigeor8" path="res://assets/deck/images/card-back1.png" id="1_0xd5f"]
 [ext_resource type="Script" path="res://CardResource.gd" id="1_u3ogw"]
+[ext_resource type="Texture2D" uid="uid://c1xab8iiurkb8" path="res://assets/deck/images/card-diamonds-11.png" id="1_vb1po"]
 
 [resource]
 script = ExtResource("1_u3ogw")
-rank = ""
-suit = ""
+deckID = "24"
+suit = "diamond"
+image = ExtResource("1_vb1po")
+rearImage = ExtResource("1_0xd5f")
 faceUp = true
-deckNo = 0
+rank = 6

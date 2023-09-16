@@ -11,4 +11,4 @@ suit = "club"
 image = ExtResource("1_vjseq")
 rearImage = ExtResource("2_nlu0k")
 faceUp = true
-rank = 13
+rank = 2

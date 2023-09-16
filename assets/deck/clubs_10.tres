@@ -1,10 +1,14 @@
-[gd_resource type="Resource" script_class="CardResource" load_steps=2 format=3 uid="uid://d1rtlxsoeh3hf"]
+[gd_resource type="Resource" script_class="CardResource" load_steps=4 format=3 uid="uid://d1rtlxsoeh3hf"]
 
+[ext_resource type="Texture2D" uid="uid://dwsjjaskj3p1u" path="res://assets/deck/images/card-clubs-10.png" id="1_hhl64"]
+[ext_resource type="Texture2D" uid="uid://kixv6pigeor8" path="res://assets/deck/images/card-back1.png" id="1_hhrbq"]
 [ext_resource type="Script" path="res://CardResource.gd" id="1_u3ogw"]
 
 [resource]
 script = ExtResource("1_u3ogw")
-rank = ""
-suit = ""
+deckID = "9"
+suit = "club"
+image = ExtResource("1_hhl64")
+rearImage = ExtResource("1_hhrbq")
 faceUp = true
-deckNo = 0
+rank = 7
