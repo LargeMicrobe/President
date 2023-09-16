@@ -1,0 +1,56 @@
+[gd_scene load_steps=2 format=3 uid="uid://2s5mduxl5ixb"]
+
+[ext_resource type="Script" path="res://Deck.gd" id="2_cus4i"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="GOOEY" type="Panel" parent="."]
+offset_right = 1152.0
+offset_bottom = 640.0
+
+[node name="PlayerHand" type="Node2D" parent="GOOEY"]
+
+[node name="Card" type="Node2D" parent="GOOEY/PlayerHand"]
+
+[node name="Sprite2D" type="Sprite2D" parent="GOOEY/PlayerHand/Card"]
+
+[node name="Area2D" type="Area2D" parent="GOOEY/PlayerHand/Card"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="GOOEY/PlayerHand/Card/Area2D"]
+
+[node name="Card2" type="Node2D" parent="GOOEY/PlayerHand"]
+
+[node name="Card3" type="Node2D" parent="GOOEY/PlayerHand"]
+
+[node name="Card4" type="Node2D" parent="GOOEY/PlayerHand"]
+
+[node name="Card5" type="Node2D" parent="GOOEY/PlayerHand"]
+
+[node name="Card6" type="Node2D" parent="GOOEY/PlayerHand"]
+
+[node name="Card7" type="Node2D" parent="GOOEY/PlayerHand"]
+
+[node name="Card8" type="Node2D" parent="GOOEY/PlayerHand"]
+
+[node name="Card9" type="Node2D" parent="GOOEY/PlayerHand"]
+
+[node name="Card10" type="Node2D" parent="GOOEY/PlayerHand"]
+
+[node name="Card11" type="Node2D" parent="GOOEY/PlayerHand"]
+
+[node name="Card12" type="Node2D" parent="GOOEY/PlayerHand"]
+
+[node name="Card13" type="Node2D" parent="GOOEY/PlayerHand"]
+
+[node name="AIHand1" type="Node2D" parent="GOOEY"]
+
+[node name="AIHand2" type="Node2D" parent="GOOEY"]
+
+[node name="AIHand3" type="Node2D" parent="GOOEY"]
+
+[node name="GameTable" type="Node2D" parent="GOOEY"]
+
+[node name="PlayedCards" type="Node2D" parent="GOOEY/GameTable"]
+
+[node name="Logic" type="Node2D" parent="GOOEY"]
+script = ExtResource("2_cus4i")

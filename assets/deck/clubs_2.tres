@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="CardResource" load_steps=4 format=3 uid="uid://bruj76o4d2cw"]
+
+[ext_resource type="Texture2D" uid="uid://lk75aebhntu7" path="res://assets/deck/images/card-clubs-2.png" id="1_vjseq"]
+[ext_resource type="Texture2D" uid="uid://kixv6pigeor8" path="res://assets/deck/images/card-back1.png" id="2_nlu0k"]
+[ext_resource type="Script" path="res://CardResource.gd" id="3_nmdna"]
+
+[resource]
+script = ExtResource("3_nmdna")
+deckID = "1"
+suit = "club"
+image = ExtResource("1_vjseq")
+rearImage = ExtResource("2_nlu0k")
+faceUp = true
+rank = 13
